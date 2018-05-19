@@ -1,0 +1,8 @@
+FROM ubuntu:18.04
+MAINTAINER David <davidkwan95@gmail.com>
+
+ADD scripts scripts
+# RUN 
+
+CMD ["/bin/bash"]
+

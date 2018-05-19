@@ -1,0 +1,30 @@
+# This file is separated to two sections:
+# 1. Not recommended to edit section. This section is not recommended to be edit since
+#    it is the basic config to keep the OS working as intended
+# 2. Safe to add or edit section. You may add / edit / delete this part as you like
+
+
+# ===================================================================================== 
+#                          1.NOT RECOMMENDED TO EDIT ZONE 
+# =====================================================================================
+
+
+# ============================ END OF NOT RECOMMENDED ZONE ============================
+
+
+# =====================================================================================
+#                          2. SAFE TO ADD OR EDIT SECTION 
+# =====================================================================================
+pym() {
+  command python manage.py
+}
+
+
+
+
+
+
+
+
+
+
