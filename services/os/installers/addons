@@ -5,6 +5,7 @@ set -e
 # These installations can only be done after all other installations are done
 # Since they are either dependant to npm or pip
 # These installations are mostly for dev tools
+NVM_DIR="$HOME/.nvm"; [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 # Install git
 echo 'Installing git...'
