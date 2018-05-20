@@ -1,0 +1,11 @@
+#! /bin/bash
+
+set -e
+
+# Install requests package
+echo "Installing requests package..."
+apt-get -qqy install curl wget
+
+# Install editors
+echo "Installing editors..."
+sudo apt-get -qqy install nano vim

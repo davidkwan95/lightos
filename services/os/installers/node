@@ -1,0 +1,12 @@
+#! /bin/bash
+
+set -e
+
+# Install NVM to manage node and npm versions
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+nvm install 8
+
+# Install yarn
+npm install -g yarn

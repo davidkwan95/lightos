@@ -1,0 +1,21 @@
+#! /bin/bash
+
+set -e
+
+# These installations can only be done after all other installations are done
+# Since they are either dependant to npm or pip
+# These installations are mostly for dev tools
+
+# Install git
+echo 'Installing git...'
+sudo apt-get -qqy install git
+
+# Install ngrok
+echo 'Installing ngrok...'
+npm install -g --unsafe-perm ngrok
+
+# Install rbtools
+pip install -U RBTools
+
+# Install heroku
+curl https://cli-assets.heroku.com/install-ubuntu.sh | sh

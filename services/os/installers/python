@@ -1,0 +1,10 @@
+#! /bin/bash
+
+set -e
+
+# Install python, pip and pipenv
+echo "Installing pip..."
+sudo apt-get install -qqy python-pip python-dev build-essential
+
+echo "Installing pipenv..."
+sudo -H pip install pipenv
